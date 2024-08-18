@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn about tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bebas-neue{
+            font-family: "Bebas Neue", sans-serif;
+        }
+        .roboto{
+            font-family: "Roboto", sans-serif;
+        }
+
+    </style>
+
+      
 </head>
-<body>
+<body class="roboto">
     <header class=" bg-[#FFFBF0]">
         <div class="p-14 mx-20">
             <nav class="lg:flex items-center justify-between mb-8">
@@ -20,7 +37,7 @@
             </nav>
             <div class="lg:flex items-center">
                 <div>
-                    <h1 class="text-7xl font-semibold text-[#FABE4C] mb-4">Be the Penguins
+                    <h1 class="bebas-neue text-7xl font-semibold text-[#FABE4C] mb-4">Be the Penguins
                     <br><span class="text-[#363958]">of Winter</span></h1>
                     <p class="text-[#3E3E3E] w-96 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div class="flex bg-gradient-to-t from-[#A4BC46] to-[#85A019] w-36 rounded-lg px-5 py-4 gap-2">
@@ -28,7 +45,7 @@
                     <button class="text-[#FFFFFF]">BUY NOW</button>
                     </div> 
                 </div>
-                <div class="lg:ml-20">
+                <div class="lg:ml-48">
                     <img src="images/model.png" alt="">
                 </div>
             </div>
@@ -37,7 +54,7 @@
     <main class="p-14 mx-20">
         <!-- woman section -->
         <section>
-            <h2 class="text-[#363958] text-3xl font-bold">WOMAN JACKET</h2>
+            <h2 class="text-[#363958] text-3xl font-bold bebas-neue">WOMAN JACKET</h2>
 
             <div class="lg:flex justify-between">
                 <div class="mt-7 bg-[#FFFFFF] drop-shadow-md w-80 p-5 rounded-lg">
@@ -82,7 +99,7 @@
         </section>
         <!-- Man section -->
         <section class="my-20">
-            <h2 class="text-[#363958] text-3xl font-bold">MAN JACKET</h2>
+            <h2 class="text-[#363958] text-3xl font-bold bebas-neue">MAN JACKET</h2>
 
             <div class="lg:flex justify-between">
                 <div class="mt-7 bg-[#FFFFFF] drop-shadow-md w-80 p-5 rounded-lg">
